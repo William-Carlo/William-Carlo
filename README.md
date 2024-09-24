@@ -61,11 +61,11 @@ function setForm() {
     /*----------Passeporte 03----------*/
     else if (Dora == 3) {
         //Profile 3
-       NumPass = "coloca o N° do pspt";
-        DateN = "data de nasc";
-        ExpPass = "validade do pspt";
-        Prenom = "Coloca o Nome";
-        Nom = "Coloca o sobrenome";
+       NumPass = "N3202093";
+        DateN = "12/12/2018";
+        ExpPass = "12/12/2028";
+        Prenom = "WILLIAM";
+        Nom = "CARLOS";
         Genre = 1;
 
         //Renouvellement
