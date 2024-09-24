@@ -66,7 +66,7 @@ function setForm() {
         ExpPass = "12/12/2028";
         Prenom = "WILLIAM";
         Nom = "CARLOS";
-        Genre = 1;
+        Genre = 2;
 
         //Renouvellement
         VisaNum = "";
