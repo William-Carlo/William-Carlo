@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Vfs PORTUGAL
-// @namespace http://github.com/
+// @namespace http://GitHub.com/
 // @version 0.6
 // @description try to take over VFS!
 // @author Guedes
@@ -13,14 +13,14 @@ var Dora = 1;
 Country = 0;
 Email = "williamdeoliveira945@gmail.com"; // Email
 Pwd = "Chiminha12@"; // mot de passe vfs
-Phone = "930838343"; // numero tÃ©️lÃ©️phone
+Phone = "930838243"; // numero tÃ©️lÃ©️phone
 Gender = ["", 'Male', 'Female']; // 1 masculin, 2 Feminin
 var VisaType = null;
 var RefNum = "";
 
 
 
-var Profiles = ["1ª NACIONAL", "2ª SCHENGEN"];
+var Profiles = ["1ª NACIONAL", "2ª NACIONAL", "3ª SCHENGEN "];
 
 var inter = 60; //Intervalle en secondes pour rafraÃ®️chir la page et sÃ©️lectionnÃ©️ type de visa
 var visa = 874; //Type de visa (782 Court sÃ©️jour - 874 Court sÃ©️jour renouvellement)
@@ -36,7 +36,7 @@ function setForm() {
         ExpPass = "12/12/2028";
         Prenom = "AVELINA";
         Nom = "KAMBUSI";
-        Genre = 2;
+         Genre = 2;
 
         //Renouvellement
         VisaNum = "";
@@ -46,17 +46,27 @@ function setForm() {
     /*---------Passeporte 02----------*/
     else if (Dora == 2) {
         //Profile 2
-        NumPass = "N2839676";
+        NumPass = "N2943184";
         DateN = "12/12/2018";
         ExpPass = "12/12/2028";
-        Prenom = "JOSEFA";
-        Nom = "CARVALHO";
+        Prenom = "ALEXANDRE";
+        Nom = "ALEXANDRE";
         Genre = 1;
 
         //Renouvellement
         VisaNum = "";
         VisaPlace = "";
         VisaDur = "";
+    }
+    /*----------Passeporte 03----------*/
+    else if (Dora == 3) {
+        //Profile 3
+       NumPass = "NN2839676";
+        DateN = "12/12/2018";
+      ExpPass = "12/12/2028";
+        Prenom = "JOSEFA";
+        Nom = "CARVALHO";
+        Genre = 1;
 
         //Renouvellement
         VisaNum = "";
