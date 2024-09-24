@@ -20,7 +20,7 @@ var RefNum = "";
 
 
 
-var Profiles = ["1ª NACIONAL", "2ª SCHENGEN", "3ª pessoa"];
+var Profiles = ["1ª NACIONAL", "2ª SCHENGEN"];
 
 var inter = 60; //Intervalle en secondes pour rafraÃ®️chir la page et sÃ©️lectionnÃ©️ type de visa
 var visa = 874; //Type de visa (782 Court sÃ©️jour - 874 Court sÃ©️jour renouvellement)
@@ -49,8 +49,8 @@ function setForm() {
         NumPass = "N2839676";
         DateN = "12/12/2018";
         ExpPass = "12/12/2028";
-        Prenom = "coloca o nome";
-        Nom = "coloca sobrenome";
+        Prenom = "JOSEFA";
+        Nom = "CARVALHO";
         Genre = 1;
 
         //Renouvellement
