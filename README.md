@@ -57,16 +57,6 @@ function setForm() {
         VisaNum = "";
         VisaPlace = "";
         VisaDur = "";
-    }
-    /*----------Passeporte 03----------*/
-    else if (Dora == 3) {
-        //Profile 3
-       NumPass = "N3202093";
-        DateN = "12/12/2018";
-        ExpPass = "12/12/2028";
-        Prenom = "WILLIAM";
-        Nom = "CARLOS";
-        Genre = 2;
 
         //Renouvellement
         VisaNum = "";
